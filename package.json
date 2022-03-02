@@ -1,0 +1,19 @@
+{
+  "name": "game-api-parser",
+  "version": "0.0.1",
+  "description": "Api Game Parser",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error : no test specified\" && exit 1",
+    "start": "PORT=9020 node index.js"
+  },
+  "author": "Saiful Azhari",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.26.0",
+    "body-parser": "^1.19.2",
+    "express": "^4.17.3",
+    "sequelize": "^6.17.0"
+  }
+}
